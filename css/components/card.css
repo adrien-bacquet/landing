@@ -1,0 +1,48 @@
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.card{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 7px;
+	margin: 10px;
+	flex-basis: 275px;
+	flex-grow: 1;
+}
+
+.card img {
+	width: 150px;
+	border-radius: 7px;
+}
+
+.card h3 {
+	flex-grow: 1;
+	padding-left: 30px;
+	font-family: 'Roboto', serif;
+	letter-spacing: 0px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #9A6F5D;
+}
+
+.card a {
+	font-family: 'Roboto', serif;
+}
+
+#twizy-brown {
+	width: 135px;
+}
+
+#twizy-white {
+	width: 170px;
+}
+
+#card-tw80 {
+	padding-left: 5px;
+}
